@@ -47,7 +47,7 @@ def main(argv):
         else:
             print("NOT AN OAK!\n")
             csvwrite.writerow([row[0], row[1]])
-    print("\nOaks saved to ../Data/JustOaksData.csv")
+    print("\nOaks saved to ../data/JustOaksData.csv")
     return 0
 if (__name__ == "__main__"):
     status = main(sys.argv)
