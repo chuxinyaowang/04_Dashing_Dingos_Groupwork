@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Author: Dashing Dingos
 #Script: run_get_TreeHeight.sh
 #Created: Dec 2022
