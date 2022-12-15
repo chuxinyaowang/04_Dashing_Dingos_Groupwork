@@ -8,7 +8,7 @@ rm(list=ls())
 data <- load("../data/KeyWestAnnualMeanTemperature.RData")
 
 #plot the graph 
-pdf("../results/TAuto1.pdf")
+png("../results/TAuto1.png")
 plot(ats$Year,
      ats$Temp, 
      xlab = "Temp (Degrees)",
@@ -38,7 +38,7 @@ for (i in 1 : 10000) {
 }
 
 #plot the histogram of the correlation coefficient
-png(file="../results/cor_list.png",
+png(file="../results/TAuto2.png",
     width=1200, height=800)
 hist(cor_2,
      col = "red",
